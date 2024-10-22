@@ -1,0 +1,185 @@
+ /* CSS RESET */
+    body, header, nav, main, footer, img {
+        margin: 3px;
+        padding: 3px;
+        border: 3px;
+    
+    }
+    
+    h1 {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+
+/*Media Query for Large Desktop Viewports*/
+@media screen and (min-width: 1921px) {
+    body {
+        background: linear-gradient(aquamarine, aliceblue, #b7f911);
+    }
+}
+
+/*Media Query for Desktop Viewport*/
+@media screen and (min-width: 1000px) {
+    body {
+        background: linear-gradient(pink, gold, purple);
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+    }
+
+    .aside {
+        grid-column: 3 / span 3;
+        font-size: 3em;
+    }
+    body {
+        background: linear-gradient(bue);
+    }
+
+    a:hover {
+        color: black;
+        opacity: 50%;
+    }
+    
+    a:active {
+        color: green;
+        opacity: 50%;
+    }
+    
+    a:visited {
+        color: red;
+        opacity: 50em;
+    }
+    
+    a:link {
+        color: blue;
+        opacity: 50%;
+    }
+}
+
+/*Tablet viewport: style rules for nav area*/
+body {
+    background: linear-gradient(magenta, aquamarine, rgb(205, 94, 112));
+}
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    color: aquamarine;
+}
+nav li a {
+    padding: auto;
+}
+
+/* selected link */
+a:active {
+    color: green;
+    opacity: 50%;
+}
+
+a:link {
+    color: blue;
+    opacity: 50%;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+    opacity: 50em;
+}
+
+/*mouse over link*/
+a:hover {
+    color: black;
+    opacity: 50%;
+}
+
+/*Tablet viewport: show tab-desk class, hide mobile class*/
+.tab-desk {
+    display: inline-block;
+}
+.mobile {
+    display: none;
+}
+
+/*Desktop Viewport: Style rules for main content*/
+#info ul {
+    margin-left: 3%;
+}
+
+/*Desktop Viewport: style rules for nav area*/
+nav li {
+    color: aquamarine;
+    font-size: 1.5em;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+nav li a {
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+    
+nav ul {
+    display: inline-block;
+}
+    
+main {
+    height: 100%;
+    min-height: 10vh;
+}
+
+    
+article {
+    min-height: auto;
+}
+
+Img {
+    max-width: 40%;
+    max-height: 30%;
+}
+
+a:hover {
+    color: black;
+    opacity: 50%;
+}
+
+#navicon:hover + ul:hover {
+    a:hover {
+        color: black;
+        opacity: 50%;
+    }
+    
+    a:active {
+        color: green;
+        opacity: 50%;
+    }
+    
+    a:visited {
+        color: red;
+        opacity: 50em;
+    }
+    
+    a:link {
+        color: blue;
+        opacity: 50%;
+    }
+}
+    
+    
+/* Style rules for footer content*/
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: indigo;
+}
+    
+footer a {
+    color: indigo;
+    text-decoration: none;
+}
